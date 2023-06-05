@@ -47,12 +47,17 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Animals
+                Services
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/merch" className="nav-links" onClick={closeMobileMenu}>
-                Merch
+                Products
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/merch" className="nav-links" onClick={closeMobileMenu}>
+                About
               </Link>
             </li>
 
@@ -62,7 +67,12 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Donate
+                Downloads
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/merch" className="nav-links" onClick={closeMobileMenu}>
+               Contact
               </Link>
             </li>
           </ul>
