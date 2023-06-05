@@ -6,7 +6,7 @@ import "../App.css";
 export default function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/hero.mp4" autoPlay loop muted />
+      
       <h1>Welcome to the DRMZ Systems</h1>
       <p>
         Industrial Automation Simplified We manufacture smart products to help

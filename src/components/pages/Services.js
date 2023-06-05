@@ -4,3 +4,4 @@ import "../../App.css";
 export default function Services() {
   return <h1 className="services">Animals</h1>;
 }
+// export default Services;
