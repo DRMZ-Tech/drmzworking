@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 
-export default function Contact() {
-  return <h1 className="contact">contact</h1>;
+function Contact() {
+  return <h1 className="contact">Contact</h1>;
 }
+export default Contact;
