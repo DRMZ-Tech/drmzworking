@@ -17,7 +17,7 @@ export default function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
-          link="/animals"
+          link="/services"
         >
           Get Started
         </Button>
