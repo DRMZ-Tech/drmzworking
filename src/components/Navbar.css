@@ -1,6 +1,6 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: 90px;
+    /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,11 +97,11 @@
     }
 
     .nav-menu.active {
-        background: #242222;
+        /* background: #242222; */
         left: 0;
         opacity: 1;
         margin-top: 200px;
-        padding-top: 100px;
+        padding-top: 100px !important;
         transition: all 0.5s ease;
         z-index: 1;
     }
@@ -110,6 +110,7 @@
         text-align: center;
         padding: 2rem;
         width: 100%;
+        /* height: 120%; */
         display: table;
         position: relative;
         top: -300px;
