@@ -29,7 +29,9 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <i class="fa-solid fa-horse-head fa-beat-fade"></i>
+            {/* <i class="fa-solid fa-horse-head fa-beat-fade"></i>
+             */}
+            <img src="nini.png" alt="logo" className="newImage" />
             DRMZ Systems
           </Link>
           <div className="menu-icon" onClick={handleClick}>

@@ -131,6 +131,12 @@
     align-items: center;
     margin-bottom: 16px;
 }
+.newImage {
+    width: 10%;
+    /* height: 20%; */
+    object-fit: cover;
+    border-radius: 4px;
+}
 
 .website-rights {
     color: #fff;
