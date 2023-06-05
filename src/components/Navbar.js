@@ -30,7 +30,11 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <i class="fa-solid fa-horse-head fa-beat-fade"></i>
+<<<<<<< HEAD
             DRMZ Services
+=======
+            DRMZ Systems
+>>>>>>> 0e678a6b345172fd73ea398e0d740d0015328bc1
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -57,7 +61,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/merch" className="nav-links" onClick={closeMobileMenu}>
-              Team
+                Team
               </Link>
             </li>
             <li className="nav-item">
@@ -71,11 +75,9 @@ function Navbar() {
               </Link>
             </li>
 
-
-           
             <li className="nav-item">
               <Link to="/merch" className="nav-links" onClick={closeMobileMenu}>
-               Contact
+                Contact
               </Link>
             </li>
           </ul>
