@@ -1,6 +1,10 @@
 import React from "react";
 import "../../../App.css";
+<<<<<<< HEAD
 import "./About.css"
+=======
+import "./About.css";
+>>>>>>> 1f8d497a71662f70c8a9f66392190daa73b5c968
 
 function About() {
   return (

@@ -1,3 +1,68 @@
-.services{
-    color:red;
-}
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set font and background color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Page container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Page heading */
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Subheadings */
+  h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Contact section */
+  .contact-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  /* Contact heading */
+  .contact-section h2 {
+    margin-top: 0;
+  }
+  
+  /* Contact paragraph */
+  .contact-section p {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact link */
+  .contact-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
