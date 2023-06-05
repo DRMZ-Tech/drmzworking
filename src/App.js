@@ -22,7 +22,7 @@ function App() {
           <Route path="/team" exact Component={Team} />
           <Route path="/about" exact Component={About} />
           <Route path="/downloads" exact Component={Downloads} />
-          {/* <Route path="/contact" exact Component={Contact} /> */}
+          <Route path="/contact" exact Component={Contact} />
         </Routes>
         <Footer />
       </Router>

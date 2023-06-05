@@ -51,7 +51,9 @@ function Footer() {
           </div>
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
+            <Link to="https://github.com/lalithakre?tab=overview&from=2023-01-01&to=2023-01-15">
+              Instagram
+            </Link>
             <Link to="/">Facebook</Link>
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
@@ -67,7 +69,7 @@ function Footer() {
               DRMZ Systems
             </Link>
           </div>
-          <small class="website-rights">Meshydra © 2023</small>
+          <small class="website-rights">Lalit © 2023</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
