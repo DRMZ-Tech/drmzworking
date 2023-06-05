@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/pages/Home";
-import Team from "./components/pages/Team";
-import About from "./components/pages/About";
-import Downloads from "./components/pages/Downloads";
-import Contact from "./components/pages/Contact";
-import Services from "./components/pages/Services";
+import Home from "./components/pages/home/Home";
+import Team from "./components/pages/team/Team";
+import About from "./components/pages/about/About";
+import Downloads from "./components/pages/downloads/Downloads";
+import Contact from "./components/pages/contact/Contact";
+import Services from "./components/pages/services/Services";
 import Footer from "./components/footer";
-import Products from "./components/pages/Products";
+import Products from "./components/pages/products/Products";
 function App() {
   return (
     <>
