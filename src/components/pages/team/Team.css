@@ -1,0 +1,38 @@
+.team-section {
+  padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .team-member {
+    margin-bottom: 30px;
+  }
+  .team-section h1{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .team-member h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 18px;
+    color: rgb(23, 5, 5);
+    margin-bottom: 10px;
+  }
+  
+  .social-media-links a {
+    margin-right: 15px;
+    color:black;
+    font-size: 25px;
+  }
+  
+  .social-media-links a:hover {
+    color:rgb(75, 208, 60);
+  }
+  
+  /* Add any additional styling as needed */
+  
