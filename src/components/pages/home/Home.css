@@ -6,7 +6,7 @@ display: flex;
 
 .hero-container{
     /*background:*/
-    height: 100vh;
+    height: 60vh;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -69,12 +69,35 @@ display: flex;
 
 
 @media screen and (max-width:960px) {
+    
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+    .hero-container > h1{
+        font-size: 70px;
+    }
+}
+@media screen and (min-width:1060px) {
+    
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
     .hero-container > h1{
         font-size: 70px;
     }
 }
 
 @media screen and (max-width:760px) {
+    
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
     .hero-container > h1 {
         font-size: 40px;
     }
@@ -89,3 +112,22 @@ display: flex;
         width: 100%;
     }
 }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-item img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 20px;
+    width: 60%;
+  }
+.grid-item img:hover
+{
+    
+    /* background: rgb(115, 143, 177); */
+    box-shadow: 0 0 150px rgb(47, 58, 209);
+}  
