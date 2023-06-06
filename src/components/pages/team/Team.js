@@ -59,7 +59,11 @@ const Team = () => {
             <p>{member.role}</p>
 
             <div>
-              <img src={member.pic} alt="team" />
+              <img
+                src={member.pic}
+                alt="team"
+                className="rounded-full w-96 h-96"
+              />
             </div>
             <div className="social-media-links">
               {Object.entries(member.socialMedia).map(([platform, link]) => (

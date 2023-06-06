@@ -10,6 +10,11 @@
     z-index: 999;
     
 }
+.newImage
+{
+    /* height: 40px; */
+    width: 60px;
+}
 
 .navbar-container {
     display: flex;

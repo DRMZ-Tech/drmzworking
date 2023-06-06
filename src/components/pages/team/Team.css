@@ -1,12 +1,12 @@
 .team-section {
-  padding: 50px 0;
+  padding: 10px 0;
     text-align: center;
     width: 100%;
     justify-content: center;
   }
   
   .team-member {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
    display: flex;
    flex-direction: column;
   }
