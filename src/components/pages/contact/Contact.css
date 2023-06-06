@@ -1,0 +1,33 @@
+.contact-info {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    color:black;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  div.contact-info > div {
+    margin: 0 20px;
+  }
+  .div1 {
+    width: 60%;
+
+
+  }
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  p{
+    font-size: 18px;
+  }
