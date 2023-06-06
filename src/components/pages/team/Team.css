@@ -1,10 +1,25 @@
 .team-section {
   padding: 10px 0;
     text-align: center;
-    width: 100%;
+    width: 10%;
     justify-content: center;
+    /* background: yellow; */
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
   }
-  
+  .centered-div {
+    width: 80%;
+    height: 190px;
+    margin: 10px;
+    padding: 5px;
+    background: blue;
+    color: white;
+ }
+ 
   .team-member {
     margin-bottom: 10px;
    display: flex;
