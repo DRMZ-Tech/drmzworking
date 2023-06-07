@@ -24,7 +24,7 @@ function App() {
           <Route path="/downloads" exact Component={Downloads} />
           <Route path="/contact" exact Component={Contact} />
         </Routes>
-        <Footer/>
+        {/* <Footer /> */}
       </Router>
     </>
   );
