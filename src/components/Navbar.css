@@ -37,7 +37,7 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 60%;
 }
 
 .fa-typo3 {
@@ -47,8 +47,9 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(7, auto);
-    grid-gap: 8px;
+    margin-top: auto;
+    grid-template-columns: repeat(9, auto);
+    grid-gap: 0px;
     list-style: none;
     text-align: center;
     width: 60vw;
