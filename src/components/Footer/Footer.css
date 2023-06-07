@@ -1,20 +1,64 @@
+/* Footer.css */
 .footer {
-    background-color: red;
-    padding: 20px 0;
-    text-align: center;
-  }
-  .container{
-    background-color:oldlace;
-  }
-  
-  .footer .container {
-    max-width: 960px;
-    margin: 10 auto;
-  }
-  
-  .footer p {
-    margin: 10;
-    font-size: 14px;
-    color: #888;
-  }
-  
+  background-color: #f2f2f2;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.footer-col {
+  flex: 1;
+  max-width: 300px;
+}
+
+.footer-col h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-contact-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.footer-contact-list li {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.footer-contact-list li i {
+  margin-right: 10px;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-social-icons a {
+  color: #333;
+  font-size: 18px;
+}
+
+.footer-divider {
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.footer-text {
+  color: #777;
+  font-size: 14px;
+}

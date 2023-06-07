@@ -9,7 +9,7 @@ import Downloads from "./components/pages/downloads/Downloads";
 import Contact from "./components/pages/contact/Contact";
 import Services from "./components/pages/services/Services";
 import Products from "./components/pages/products/Products";
-import Footer from "./components/Footer/footer";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -24,7 +24,7 @@ function App() {
           <Route path="/downloads" exact Component={Downloads} />
           <Route path="/contact" exact Component={Contact} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer/>
       </Router>
     </>
   );
