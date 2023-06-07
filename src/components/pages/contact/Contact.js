@@ -49,6 +49,15 @@ const Contact = () => {
         ></textarea>
         <button type="submit">Submit</button>
       </form>
+      <div className="connect">
+        <h3>Connect With Us</h3>
+        <div className="connect-links">
+          <a href="mailto:info@example.com">Email</a>
+          <a href="tel:+1234567890">Phone</a>
+          <a href="https://www.facebook.com/example">Facebook</a>
+          <a href="https://www.twitter.com/example">Twitter</a>
+        </div>
+      </div>
     </div>
   );
 };
