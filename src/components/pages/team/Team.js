@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../App.css";
 import "./Team.css";
+
 const Team = () => {
   const teamMembers = [
     {
@@ -52,18 +53,15 @@ const Team = () => {
   return (
     <div className="team-section">
       <h1>Our Team</h1>
-      <div className="team-member">
+      <div className="team-members">
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member">
-            <h3>{member.name}</h3>
-            <p>{member.role}</p>
-
-            <div>
-              <img
-                src={member.pic}
-                alt="team"
-                className="rounded-full w-96 h-96"
-              />
+            <div className="member-info">
+              <img src={member.pic} alt="team" className="member-image" />
+              <div className="member-details">
+                <h3>{member.name}</h3>
+                <p>{member.role}</p>
+              </div>
             </div>
             <div className="social-media-links">
               {Object.entries(member.socialMedia).map(([platform, link]) => (
@@ -72,6 +70,7 @@ const Team = () => {
                   href={link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="social-media-icon"
                 >
                   <i className={`fab fa-${platform}`} />
                 </a>
