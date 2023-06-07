@@ -1,5 +1,5 @@
 .navbar {
-    background-color:grey;
+    background-color:rgb(144, 114, 114);
     height: 100px;
     display: flex;
     justify-content: center;
@@ -10,6 +10,11 @@
     z-index: 999;
     
 }
+.newImage
+{
+    /* height: 40px; */
+    width: 60px;
+}
 
 .navbar-container {
     display: flex;
@@ -19,7 +24,7 @@
     max-width: 1500px;
     /* flex: 1; */
     /* background-color: antiquewhite; */
-    /* min-height: 20px; */
+    min-height: 20px;
     
 }
 
@@ -99,11 +104,11 @@
     }
 
     .nav-menu.active {
-        /* background: #242222; */
+        background: powderblue;
         left: 0;
         opacity: 1;
-        margin-top: 200px;
-        padding-top: 100px !important;
+        margin-top: 21px;
+        padding-top: 300px !important;
         transition: all 0.5s ease;
         z-index: 1;
     }

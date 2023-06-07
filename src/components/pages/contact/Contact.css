@@ -1,6 +1,6 @@
 #contact-form {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 40px 0;
     min-height: 100vh;
   }
@@ -12,7 +12,8 @@
   }
   
   h2 {
-    color: white;
+    margin-bottom: 30px;
+    color:black;
   }
   
   form {
@@ -34,14 +35,14 @@
   textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
   }
   
   button {
    
     padding: 10px 20px;
-    background-color: white;
+    background-color: paleturquoise;
     color:black;
     border: none;
     border-radius: 5px;

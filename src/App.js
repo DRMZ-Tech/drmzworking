@@ -8,7 +8,6 @@ import About from "./components/pages/about/About";
 import Downloads from "./components/pages/downloads/Downloads";
 import Contact from "./components/pages/contact/Contact";
 import Services from "./components/pages/services/Services";
-import Footer from "./components/footer";
 import Products from "./components/pages/products/Products";
 function App() {
   return (
