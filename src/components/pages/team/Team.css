@@ -71,12 +71,27 @@
   color: #333;
 }
 
-.team-members {
+@media screen and (max-width:1050px) {
+    
+  .team-members {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
 }
+  }
+  @media screen and (min-width:1050px) {
+      
+    .team-members {
+      display: flex;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      justify-content: center;
+      gap: 40px;
+    }
+  }
+  
 
 .team-member {
   width: 300px;
@@ -88,7 +103,7 @@
 }
 
 .team-member:hover {
-  transform: translateY(-5px);
+  transform: translateY(-15px);
 }
 
 .member-image {
