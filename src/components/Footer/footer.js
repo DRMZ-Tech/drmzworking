@@ -1,7 +1,9 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="container">
@@ -9,23 +11,23 @@ const Footer = () => {
           <div className="footer-col">
             <h3>About Us</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              aliquet sagittis iaculis.
+              © Copyright DRMZ Systems Innovations Private Limited. All Rights
+              Reserved Designed by Tech DRMZ
             </p>
           </div>
           <div className="footer-col">
             <h3>Contact</h3>
             <ul className="footer-contact-list">
               <li>
-                <i className="fas fa-map-marker-alt"></i> 123 Street, City,
-                Country
+                <i className="fas fa-map-marker-alt"></i> First Floor, Plot 69B,
+                Kasturba Nagar Bhopal, MP 462023
               </li>
               <li>
-                <i className="fas fa-envelope"></i>{' '}
-                <a href="mailto:info@example.com">info@example.com</a>
+                <i className="fas fa-envelope"></i>{""}
+                <a href="mailto:info@example.com">contact@drmztech.com</a>
               </li>
               <li>
-                <i className="fas fa-phone-alt"></i> +1234567890
+                <i className="fas fa-phone-alt"></i> +91-7581806218
               </li>
             </ul>
           </div>
@@ -46,7 +48,7 @@ const Footer = () => {
         </div>
         <hr className="footer-divider" />
         <p className="footer-text">
-          © {new Date().getFullYear()} Your Organization. All rights reserved.
+          © {currentYear} Your Organization. All rights reserved.
         </p>
       </div>
     </footer>
