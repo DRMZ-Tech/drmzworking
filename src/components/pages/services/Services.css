@@ -1,6 +1,7 @@
 .services-container {
   max-width: 800px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .services-container h2 {
@@ -12,19 +13,21 @@
 .service {
   margin-bottom: 60px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
 }
 
 .service-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   gap: 40px;
 }
 
 .service-image {
-  flex: 0 0 300px;
+  flex: 0 0 100%;
+  max-width: 300px;
   position: relative;
   overflow: hidden;
 }
@@ -90,9 +93,12 @@
 @media screen and (max-width: 600px) {
   .service-content {
     flex-direction: column;
+    gap: 20px;
   }
 
-  .service-text {
-    margin-top: 20px;
+  .service-image {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
   }
 }

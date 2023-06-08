@@ -1,7 +1,9 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="container">
@@ -21,7 +23,7 @@ const Footer = () => {
                 Country
               </li>
               <li>
-                <i className="fas fa-envelope"></i>{' '}
+                <i className="fas fa-envelope"></i>{" "}
                 <a href="mailto:info@example.com">info@example.com</a>
               </li>
               <li>
@@ -46,7 +48,7 @@ const Footer = () => {
         </div>
         <hr className="footer-divider" />
         <p className="footer-text">
-          © {new Date().getFullYear()} Your Organization. All rights reserved.
+          © {currentYear} Your Organization. All rights reserved.
         </p>
       </div>
     </footer>

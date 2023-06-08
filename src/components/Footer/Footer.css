@@ -1,64 +1,121 @@
 /* Footer.css */
 .footer {
-  background-color: #f2f2f2;
-  padding: 30px 0;
-  text-align: center;
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .footer-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  margin-bottom: 30px;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .footer-col {
-  flex: 1;
-  max-width: 300px;
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  transition: transform 0.3s ease;
+}
+
+.footer-col:hover {
+  transform: translateY(-5px);
 }
 
 .footer-col h3 {
   color: #333;
   font-size: 18px;
   margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-col:hover h3 {
+  color: #ff6f61;
+}
+
+.footer-col p {
+  color: #666;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.footer-col:hover p {
+  color: #ff6f61;
 }
 
 .footer-contact-list {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   margin: 0;
-  text-align: left;
+  color: #666;
+  line-height: 1.5;
 }
 
 .footer-contact-list li {
-  color: #777;
   margin-bottom: 10px;
+  transition: color 0.3s ease;
 }
 
-.footer-contact-list li i {
+.footer-contact-list li:hover {
+  color: #ff6f61;
+}
+
+.footer-contact-list i {
   margin-right: 10px;
 }
 
 .footer-social-icons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
   margin-top: 10px;
 }
 
 .footer-social-icons a {
-  color: #333;
-  font-size: 18px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 30px;
+  transition: background-color 0.3s ease;
 }
 
-.footer-divider {
-  border: 1px solid #ddd;
-  margin: 20px auto;
-  width: 60%;
+.footer-social-icons a:hover {
+  background-color: #ff6f61;
 }
 
 .footer-text {
-  color: #777;
+  color: #666;
   font-size: 14px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.footer-text:hover {
+  color: #ff6f61;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  animation: dividerAnimation 1s infinite;
+}
+
+@keyframes dividerAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
