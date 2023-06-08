@@ -1,60 +1,94 @@
 import React, { useState } from 'react';
 
-const Product = ({ images }) => {
-  const [currentImage, setCurrentImage] = useState(images[0]);
-  const [isZoomed, setIsZoomed] = useState(false);
+const Gallery = () => {
+  const [viewType, setViewType] = useState('grid');
+  const [captions, setCaptions] = useState([]);
 
-  const handleImageClick = image => {
-    setCurrentImage(image);
+  const handleCaptionChange = (index, event) => {
+    const newCaptions = [...captions];
+    newCaptions[index] = event.target.value;
+    setCaptions(newCaptions);
   };
 
-  const handleZoomToggle = () => {
-    setIsZoomed(prevState => !prevState);
-  };
-
-  const handlePrevImage = () => {
-    const currentIndex = images.findIndex(image => image.id === currentImage.id);
-    const prevIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
-    setCurrentImage(images[prevIndex]);
-  };
-
-  const handleNextImage = () => {
-    const currentIndex = images.findIndex(image => image.id === currentImage.id);
-    const nextIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
-    setCurrentImage(images[nextIndex]);
-  };
+  const products = [
+    {
+      id: 1,
+      name: 'Product 1',
+      images: [
+        { id: 1, src: 'one.jpg', alt: 'Product 1 - Image 1' },
+        { id: 2, src: 'Two.jpg', alt: 'Product 1 - Image 2' },
+      ],
+    },
+    {
+      id: 2,
+      name: 'Product 2',
+      images: [
+        { id: 1, src: 'three.jpg', alt: 'Product 2 - Image 1' },
+        { id: 2, src: 'four.jpg', alt: 'Product 2 - Image 2' },
+        { id: 3, src: 'five.jpg', alt: 'Product 2 - Image 3' },
+      ],
+    },
+    // Add more products as needed
+  ];
 
   return (
-    <div className="product-gallery">
-      <div className={`main-image ${isZoomed ? 'zoomed' : ''}`}>
-        <img src={currentImage.src} alt={currentImage.alt} />
-        {!isZoomed && (
-          <div className="zoom-toggle" onClick={handleZoomToggle}>
-            Zoom
-          </div>
-        )}
+    <div className="gallery-container">
+      <div className="toggle-buttons">
+        <button
+          className={`toggle-btn ${viewType === 'grid' ? 'active' : ''}`}
+          onClick={() => setViewType('grid')}
+        >
+          Grid View
+        </button>
+        <button
+          className={`toggle-btn ${viewType === 'list' ? 'active' : ''}`}
+          onClick={() => setViewType('list')}
+        >
+          List View
+        </button>
       </div>
-      <div className="thumbnail-images">
-        <div className="arrow left" onClick={handlePrevImage}></div>
-        {images.map(image => (
-          <img
-            key={image.id}
-            src={image.src}
-            alt={image.alt}
-            className={currentImage.id === image.id ? 'active' : ''}
-            onClick={() => handleImageClick(image)}
-          />
-        ))}
-        <div className="arrow right" onClick={handleNextImage}></div>
-      </div>
-      {currentImage.caption && (
-        <div className="caption">
-          <p>{currentImage.caption}</p>
+
+      {viewType === 'grid' ? (
+        <div className="grid-container">
+          {products.map(product => (
+            <div key={product.id} className="grid-item">
+              <h3>{product.name}</h3>
+              {product.images.map(image => (
+                <div key={image.id} className="image-container">
+                  <img src={image.src} alt={image.alt} className="grid-image" />
+                  {/* <textarea
+                    className="caption-input"
+                    placeholder="Add a caption..."
+                    value={captions[image.id - 1] || ''}
+                    onChange={event => handleCaptionChange(image.id - 1, event)}
+                  /> */}
+                </div>
+              ))}
+            </div>
+          ))}
         </div>
+      ) : (
+        <ul className="list-container">
+          {products.map(product => (
+            <li key={product.id} className="list-item">
+              <h3>{product.name}</h3>
+              {product.images.map(image => (
+                <div key={image.id} className="image-container">
+                  <img src={image.src} alt={image.alt} className="list-image" />
+                  {/* <textarea
+                    className="caption-input"
+                    placeholder="Add a caption..."
+                    value={captions[image.id - 1] || ''}
+                    onChange={event => handleCaptionChange(image.id - 1, event)}
+                  /> */}
+                </div>
+              ))}
+            </li>
+          ))}
+        </ul>
       )}
     </div>
   );
 };
 
-export default Product;
-
+export default Gallery;
