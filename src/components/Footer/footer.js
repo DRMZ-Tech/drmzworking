@@ -23,11 +23,13 @@ const Footer = () => {
                 Kasturba Nagar Bhopal, MP 462023
               </li>
               <li>
-                <i className="fas fa-envelope"></i>{""}
+                <i className="fas fa-envelope"></i>
+                {""}
                 <a href="mailto:info@example.com">contact@drmztech.com</a>
               </li>
               <li>
-                <i className="fas fa-phone-alt"></i> +91-7581806218
+                <i className="fas fa-phone-alt"></i>
+                <a href="tel:+91-7581806218">+91-7581806218</a>
               </li>
             </ul>
           </div>
