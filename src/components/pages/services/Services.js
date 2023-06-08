@@ -5,6 +5,7 @@ import circuitImage from "./circuit.avif";
 import iotImage from "./iot.png";
 import automationImage from "./automation.jpeg";
 import roboticsImage from "./robotics.jpeg";
+import Features from "./features";
 
 const Services = () => {
   return (
@@ -67,6 +68,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <Features />
     </div>
   );
 };
