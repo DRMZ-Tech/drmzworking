@@ -1,61 +1,75 @@
-
-.about{
-    background-color: white;
-    min-height: 100vh;
-    font-family: 'PT Sans', sans-serif;
-    color:black;
-    margin-bottom: 12;
-    
+.about-container {
+  text-align: center;
+  margin: 20px;
 }
 
-.about-content{
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-
-    font-size: 1.8rem;
-    margin-bottom: 30px;
-}
-.top-margin {
-    margin-top: 50px; /* Adjust the value as needed */
-    margin-right: 20px; 
-    margin-left: 20px;  
-}
-.champ{
-    width: 300px;
-    height: 350px;
-    margin-top: 30px;
-    margin-right: 20px; 
-    margin-left: 20px;  
+.content {
+  margin-bottom: 40px;
+  animation: fadeInUp 1s ease;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 1.6rem;
-    justify-content: center;
-    align-items: center;
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  animation: fadeIn 1s ease;
+}
+
+.stat {
+  flex: 1;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  animation: fadeIn 1s ease;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.stat:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+  display: block;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  h2 {
-    color: #333;
+  to {
+    opacity: 1;
   }
-  
-  h3 {
-    color: #666;
-    margin-top: 20px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
+}
