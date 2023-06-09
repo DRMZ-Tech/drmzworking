@@ -15,7 +15,14 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Routes>
+        <Home />
+        <Services />
+        <Products />
+        <Team />
+        <About />
+        <Downloads />
+        <Contact />
+        {/* <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/services" exact Component={Services} />
           <Route path="/products" exact Component={Products} />
@@ -23,7 +30,7 @@ function App() {
           <Route path="/about" exact Component={About} />
           <Route path="/downloads" exact Component={Downloads} />
           <Route path="/contact" exact Component={Contact} />
-        </Routes>
+        </Routes> */}
         <Footer />
       </Router>
     </>

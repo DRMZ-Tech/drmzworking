@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 import "../../../App.css";
+import {db} from "../../../firebase";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -13,6 +14,14 @@ const Contact = () => {
     e.preventDefault();
     // Handle form submission logic here
     // You can send the form data to a server or perform any other actions
+
+
+    db.collection('contacts').add({ 
+      name: name,
+      email: email,
+      message: message,
+    });
+  
     console.log("Form submitted!");
     console.log("Name:", name);
     console.log("Email:", email);
