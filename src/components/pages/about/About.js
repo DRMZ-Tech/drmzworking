@@ -1,42 +1,57 @@
 import React from 'react';
-import './About.css';
+import './About.css'; // Import the CSS file
 
-const About = () => {
+const AboutUs = () => {
   return (
-    <div className="about-container">
-      <div className="content">
-        <h2>About Us</h2>
+    <section className="about-us">
+      <div className="about-us-content">
+        <h2>About Our Organization</h2>
         <p>
-          Drmz System Innovations is a registered Pvt. Ltd. Company which provides embedded system and IoT solutions. We aim to provide unique, customized and user-friendly solutions and products in the embedded systems space. We at Drmz, are a team of creative, enthusiastic & focused people.
+          Welcome to our organization! We are dedicated to providing innovative solutions in our industry and making a positive impact in the world.
         </p>
         <p>
-          The Company is working on many cutting-edge technologies and related products like the Internet of Things (IoT), Industrial Robotics, Industrial Automation, Home and Office Automation, Demand-side energy management system, Smart wireless modules for IoT, Smart attendance system, Smart Solar power generation management system, etc.
+        Drmz System Innovations is a registered Pvt. Ltd. Company which provides embedded system and IoT solutions. We aim to provide unique, customized and user friendly solutions and products in the embedded systems space. We at Drmz, are a team of creative, enthusiastic & focused people.
+        </p>
+        <p>
+        The Company is working on many cutting edge technologies and related products like the Internet of things (IoT), Industrial Robotics, Industrial Automation, Home and Office Automation, Demand side energy management system, Smart wireless modules for IoT, Smart attendance system, Smart Solar power generation management system, etc.
         </p>
       </div>
 
-      <div className="stats">
-        <div className="stat">
-          <span className="stat-number">65</span>
-          <span className="stat-label">Happy Clients Globally</span>
+      <div className="social-media">
+        <h3>Connect With Us</h3>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com">Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">Twitter</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com">Instagram</a>
+          </li>
+        </ul>
+      </div>
+      <div className='mygal'>
+        <h3>Image Gallery</h3>
         </div>
-
-        <div className="stat">
-          <span className="stat-number">85</span>
-          <span className="stat-label">Projects completed across various domains</span>
-        </div>
-
-        <div className="stat">
-          <span className="stat-number">11</span>
-          <span className="stat-label">Years of experience in Embedded Systems and Automation</span>
-        </div>
-
-        <div className="stat">
-          <span className="stat-number">15</span>
-          <span className="stat-label">Awards at both National and International Level</span>
+      <div className="image-gallery">
+        <div className="gallery">
+          <img src="one.jpg" alt="Image 1" />
+          <img src="Two.jpg" alt="Image 2" />
+          <img src="Three.jpg" alt="Image 3" />
         </div>
       </div>
-    </div>
+
+      <div className="products">
+        <h3>Our Products</h3>
+        <ul>
+          <li><img src="six.jpg" alt="Image 1" /></li>
+          <li><img src="five.jpg" alt="Image 1" /></li>
+          <li><img src="four.jpg" alt="Image 1" /></li>
+        </ul>
+      </div>
+    </section>
   );
 };
 
-export default About;
+export default AboutUs;

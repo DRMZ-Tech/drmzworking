@@ -2,9 +2,23 @@ import "../../../App.css";
 import React from "react";
 import { Button } from "../../Button";
 import "./Home.css";
+import MarqueeSlider from "./MarqueeSlider";
 
 function Home() {
+  const images = [
+    'one.jpg',
+    'card1.jpg',
+    'Two.jpg',
+    'three.jpg',
+    'four.jpg',
+    'five.jpg',
+    'six.jpg',
+    'card2.jpg',
+    // Add more image URLs as needed
+  ];
+
   return (
+    <>
     <div>
       <div className="main-container">
         <div className="hero-container">
@@ -67,6 +81,11 @@ function Home() {
         </div>
       </div>
     </div>
+    <div>
+      {/* <h1>Image Slider</h1> */}
+      <MarqueeSlider images={images} speed={1} />
+    </div>
+    </>
   );
 }
 

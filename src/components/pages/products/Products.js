@@ -1,94 +1,48 @@
-import React, { useState } from 'react';
+import React from 'react';
+import './Products.css';
 
-const Gallery = () => {
-  const [viewType, setViewType] = useState('grid');
-  const [captions, setCaptions] = useState([]);
+class ImageGallery extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      images: [
+        'five.jpg',
+        'four.jpg',
+        'three.jpg',
+        'Two.jpg',
+        'six.jpg',
+      ],
+      activeIndex: 0,
+    };
+  }
 
-  const handleCaptionChange = (index, event) => {
-    const newCaptions = [...captions];
-    newCaptions[index] = event.target.value;
-    setCaptions(newCaptions);
+  handleClick = (index) => {
+    this.setState({ activeIndex: index });
   };
 
-  const products = [
-    {
-      id: 1,
-      name: 'Product 1',
-      images: [
-        { id: 1, src: 'one.jpg', alt: 'Product 1 - Image 1' },
-        { id: 2, src: 'Two.jpg', alt: 'Product 1 - Image 2' },
-      ],
-    },
-    {
-      id: 2,
-      name: 'Product 2',
-      images: [
-        { id: 1, src: 'three.jpg', alt: 'Product 2 - Image 1' },
-        { id: 2, src: 'four.jpg', alt: 'Product 2 - Image 2' },
-        { id: 3, src: 'five.jpg', alt: 'Product 2 - Image 3' },
-      ],
-    },
-    // Add more products as needed
-  ];
+  render() {
+    const { images, activeIndex } = this.state;
 
-  return (
-    <div className="gallery-container">
-      <div className="toggle-buttons">
-        <button
-          className={`toggle-btn ${viewType === 'grid' ? 'active' : ''}`}
-          onClick={() => setViewType('grid')}
-        >
-          Grid View
-        </button>
-        <button
-          className={`toggle-btn ${viewType === 'list' ? 'active' : ''}`}
-          onClick={() => setViewType('list')}
-        >
-          List View
-        </button>
-      </div>
-
-      {viewType === 'grid' ? (
-        <div className="grid-container">
-          {products.map(product => (
-            <div key={product.id} className="grid-item">
-              <h3>{product.name}</h3>
-              {product.images.map(image => (
-                <div key={image.id} className="image-container">
-                  <img src={image.src} alt={image.alt} className="grid-image" />
-                  {/* <textarea
-                    className="caption-input"
-                    placeholder="Add a caption..."
-                    value={captions[image.id - 1] || ''}
-                    onChange={event => handleCaptionChange(image.id - 1, event)}
-                  /> */}
-                </div>
-              ))}
+    return (<>
+        <h1>____Gallery____</h1>
+      <div className="image-gallery">
+        <div className="gallery-container">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className={`gallery-image ${
+                activeIndex === index ? 'active' : ''
+              }`}
+              onClick={() => this.handleClick(index)}
+            >
+              <img src={image} alt={`Image ${index}`} />
             </div>
           ))}
         </div>
-      ) : (
-        <ul className="list-container">
-          {products.map(product => (
-            <li key={product.id} className="list-item">
-              <h3>{product.name}</h3>
-              {product.images.map(image => (
-                <div key={image.id} className="image-container">
-                  <img src={image.src} alt={image.alt} className="list-image" />
-                  {/* <textarea
-                    className="caption-input"
-                    placeholder="Add a caption..."
-                    value={captions[image.id - 1] || ''}
-                    onChange={event => handleCaptionChange(image.id - 1, event)}
-                  /> */}
-                </div>
-              ))}
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-};
+      </div>
+      </>
+    );
+  }
+}
 
-export default Gallery;
+export default ImageGallery;
