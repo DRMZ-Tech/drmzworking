@@ -76,8 +76,8 @@ function Navbar() {
                 to="/downloads"
                 className="nav-links"
                 onClick={closeMobileMenu}
-              >
-                Downloads
+              >  
+                Downl oads
               </Link>
             </li> */}
 
