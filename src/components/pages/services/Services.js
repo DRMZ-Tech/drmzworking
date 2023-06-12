@@ -8,7 +8,7 @@ import Features from "./features";
 
 const Services = () => {
   return (
-    <div className="services-container">
+    <div className="services-container" id="services">
       <h2 className="services-title">Services</h2>
       <div className="services-grid">
         <div className="service">

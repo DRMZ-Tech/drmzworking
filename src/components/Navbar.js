@@ -39,37 +39,37 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <a href="#" className="nav-links" onClick={closeMobileMenu}>
                 Home
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/services"
+              <a
+                href="#services"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Services
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/products"
+              <a
+                href="#products"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Products
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link to="/team" className="nav-links" onClick={closeMobileMenu}>
+              <a href="#team" className="nav-links" onClick={closeMobileMenu}>
                 Team
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              <a href="#about" className="nav-links" onClick={closeMobileMenu}>
                 About
-              </Link>
+              </a>
             </li>
             {/* <li className="nav-item">
               <Link
@@ -82,13 +82,13 @@ function Navbar() {
             </li> */}
 
             <li className="nav-item">
-              <Link
-                to="/contact"
+              <a
+                href="#contact"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
