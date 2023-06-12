@@ -10,12 +10,14 @@ import Contact from "./components/pages/contact/Contact";
 import Services from "./components/pages/services/Services";
 import Products from "./components/pages/products/Products";
 import Footer from "./components/Footer/footer";
+import BackgroundPage from './components/backgrounds/bgknow';
 function App() {
   return (
     <>
       <Router>
         <Navbar />
         <Home />
+        <BackgroundPage/>
         <Services />
         <Products />
         <Team />
