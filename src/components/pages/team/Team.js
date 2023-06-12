@@ -12,7 +12,7 @@ const Team = () => {
         twitter: "https://twitter.com/sudeshmorey",
         linkedin: "https://www.linkedin.com/in/sudesh-morey-1007218/",
         facebook: "https://www.facebook.com/sudesh.morey/",
-        instagram: "",
+        instagram: "https://www.instagram.com/sudeshmorey/",
       },
     },
     {
@@ -23,7 +23,7 @@ const Team = () => {
         twitter: "https://twitter.com/nimmanish",
         linkedin: "https://www.linkedin.com/in/manish-nim-89963577/",
         facebook: "https://www.facebook.com/manish.nim.543",
-        instagram: "",
+        instagram: "https://www.instagram.com/manish_nim_/",
       },
     },
     {
@@ -34,7 +34,7 @@ const Team = () => {
         twitter: "#",
         linkedin: "#",
         facebook: "#",
-        instagram: "#",
+        instagram: "https://www.instagram.com/pabesh/",
       },
     },
     {
@@ -45,7 +45,7 @@ const Team = () => {
         twitter: "https://twitter.com/SagarMorey2",
         linkedin: "https://www.linkedin.com/in/sagar-morey-308b209a/",
         facebook: "https://www.facebook.com/sagar.morey.5",
-        instagram: "#",
+        instagram: "https://www.instagram.com/sagar.monu786/",
       },
     },
   ];
