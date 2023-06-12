@@ -36,7 +36,11 @@ const Footer = () => {
           <div className="footer-col">
             <h3>Follow Us</h3>
             <div className="footer-social-icons">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.facebook.com/drmztech.bhopal"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-facebook-f"></i>
               </a>
               <a
