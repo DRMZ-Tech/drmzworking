@@ -41,7 +41,7 @@ const AboutUs = () => {
         </ul>
       </div>
       <div className="mygal">
-        <h3>Image Gallery</h3>
+        <h1>Image Gallery</h1>
       </div>
       <div className="image-gallery">
         <div className="gallery">
@@ -52,7 +52,7 @@ const AboutUs = () => {
       </div>
 
       <div className="products">
-        <h3>Our Products</h3>
+        <h1>Our Products</h1>
         <ul className="image">
           <li>
             <img src="six.jpg" alt="Image 1" />
