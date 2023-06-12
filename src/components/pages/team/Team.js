@@ -10,7 +10,7 @@ const Team = () => {
       pic: "https://drmz.in/assets/img/team/team-1.jpg",
       socialMedia: {
         twitter: "https://twitter.com/johndoe",
-        linkedin: "https://linkedin.com/in/johndoe",
+        linkedin: "https://www.linkedin.com/in/sudesh-morey-1007218/",
         facebook: "",
         instagram: "",
       },
@@ -21,7 +21,7 @@ const Team = () => {
       pic: "https://drmz.in/assets/img/team/team-2.jpg",
       socialMedia: {
         twitter: "",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/manish-nim-89963577/",
         facebook: "",
         instagram: "",
       },
@@ -43,7 +43,7 @@ const Team = () => {
       pic: "https://drmz.in/assets/img/team/team-4.jpg",
       socialMedia: {
         twitter: "",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/sagar-morey-308b209a/",
         facebook: "",
         instagram: "",
       },
