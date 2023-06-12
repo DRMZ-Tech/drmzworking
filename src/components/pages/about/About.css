@@ -98,6 +98,21 @@
   align-items: center;
   justify-content: center;
 }
+.products .image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-direction: row;
+
+}
+@media screen and (max-width: 1250px) {
+  .products .image{
+    flex-direction: column;
+  }
+}
+  
 
 .products h3 {
   font-size: 20px;
@@ -115,6 +130,7 @@
 }
 .products img {
   margin-top: 10px;
+  height: 300px;
   align-items: center;
   justify-content: center;
 }

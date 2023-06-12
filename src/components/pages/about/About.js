@@ -53,7 +53,7 @@ const AboutUs = () => {
 
       <div className="products">
         <h3>Our Products</h3>
-        <ul>
+        <ul className="image">
           <li>
             <img src="six.jpg" alt="Image 1" />
           </li>
