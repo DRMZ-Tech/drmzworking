@@ -11,8 +11,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     /* Add more styles to position and style your content */
-  }
-  .container {
+}
+.container {
+      color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
