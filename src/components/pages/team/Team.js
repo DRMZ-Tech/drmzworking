@@ -9,9 +9,9 @@ const Team = () => {
       role: "Chief Executive Officer",
       pic: "https://drmz.in/assets/img/team/team-1.jpg",
       socialMedia: {
-        twitter: "https://twitter.com/johndoe",
+        twitter: "https://twitter.com/sudeshmorey",
         linkedin: "https://www.linkedin.com/in/sudesh-morey-1007218/",
-        facebook: "",
+        facebook: "https://www.facebook.com/sudesh.morey/",
         instagram: "",
       },
     },
@@ -20,7 +20,7 @@ const Team = () => {
       role: "Product Manager",
       pic: "https://drmz.in/assets/img/team/team-2.jpg",
       socialMedia: {
-        twitter: "",
+        twitter: "https://twitter.com/nimmanish",
         linkedin: "https://www.linkedin.com/in/manish-nim-89963577/",
         facebook: "",
         instagram: "",
@@ -42,7 +42,7 @@ const Team = () => {
       role: "CMO",
       pic: "https://drmz.in/assets/img/team/team-4.jpg",
       socialMedia: {
-        twitter: "",
+        twitter: "https://twitter.com/SagarMorey2",
         linkedin: "https://www.linkedin.com/in/sagar-morey-308b209a/",
         facebook: "",
         instagram: "",
