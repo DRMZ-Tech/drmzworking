@@ -19,13 +19,17 @@ const Footer = () => {
             <h3>Contact</h3>
             <ul className="footer-contact-list">
               <li>
-                <i className="fas fa-map-marker-alt"></i> First Floor, Plot 69B,
-                Kasturba Nagar Bhopal, MP 462023
+                <i className="fas fa-map-marker-alt"></i>
+                {""}
+                <a href="https://www.google.com/maps/place/Drmztech+(Drmz+system+innovations+Pvt+Ltd)/@23.1999184,77.2903391,12z/data=!4m10!1m2!2m1!1sFirst+Floor,+Plot+69B,+Kasturba+Nagar+Bhopal,+MP+462023!3m6!1s0x397c42684e8d0c45:0x8f1b50c93f4b5b0!8m2!3d23.2338714!4d77.4403319!15sCjdGaXJzdCBGbG9vciwgUGxvdCA2OUIsIEthc3R1cmJhIE5hZ2FyIEJob3BhbCwgTVAgNDYyMDIzkgETZWxlY3Ryb25pY3NfY29tcGFueeABAA!16s%2Fg%2F113gnp6cr?entry=ttu">
+                  First Floor, Plot 69B, Kasturba Nagar Bhopal, MP 462023
+                </a>
               </li>
+              <li></li>
               <li>
                 <i className="fas fa-envelope"></i>
                 {""}
-                <a href="mailto:info@example.com">contact@drmztech.com</a>
+                <a href="mailto:info@example.com">contact@drmztech.com </a>
               </li>
               <li>
                 <i className="fas fa-phone-alt"></i>
