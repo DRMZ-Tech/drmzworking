@@ -22,7 +22,7 @@ const Team = () => {
       socialMedia: {
         twitter: "https://twitter.com/nimmanish",
         linkedin: "https://www.linkedin.com/in/manish-nim-89963577/",
-        facebook: "",
+        facebook: "https://www.facebook.com/manish.nim.543",
         instagram: "",
       },
     },
@@ -31,10 +31,10 @@ const Team = () => {
       role: "CTO",
       pic: "https://drmz.in/assets/img/team/team-3.jpg",
       socialMedia: {
-        twitter: "",
-        linkedin: "",
-        facebook: "",
-        instagram: "",
+        twitter: "#",
+        linkedin: "#",
+        facebook: "#",
+        instagram: "#",
       },
     },
     {
@@ -44,8 +44,8 @@ const Team = () => {
       socialMedia: {
         twitter: "https://twitter.com/SagarMorey2",
         linkedin: "https://www.linkedin.com/in/sagar-morey-308b209a/",
-        facebook: "",
-        instagram: "",
+        facebook: "https://www.facebook.com/sagar.morey.5",
+        instagram: "#",
       },
     },
   ];
