@@ -9,7 +9,7 @@ import Features from "./features";
 const Services = () => {
   return (
     <div className="services-container" id="services">
-      <h2 className="services-title">Services</h2>
+      <h1 className="services-title">Services</h1>
       <div className="services-grid">
         <div className="service">
           <div className="service-content">

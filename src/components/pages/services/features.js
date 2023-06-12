@@ -16,7 +16,7 @@ const Features = () => {
 
   return (
     <div className="features-section">
-      <h2>Features</h2>
+      <h1>Features</h1>
       <ul className="features-list">
         {features.map((feature, index) => (
           <li key={index}>{feature}</li>

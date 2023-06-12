@@ -5,11 +5,11 @@
   text-align: center;
 }
 
-.features-section h2 {
-  font-size: 32px;
+.features-section h1 {
+  /* font-size: 32px; */
   margin-bottom: 20px;
   color: #333;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .features-list {
