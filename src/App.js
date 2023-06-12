@@ -20,7 +20,6 @@ function App() {
         <Products />
         <Team />
         <About />
-        <Downloads />
         <Contact />
         {/* <Routes>
           <Route path="/" exact Component={Home} />
