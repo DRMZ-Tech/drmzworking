@@ -39,7 +39,11 @@ const Footer = () => {
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://twitter.com/drmztech"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-twitter"></i>
               </a>
               <a
