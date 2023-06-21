@@ -11,6 +11,7 @@ import Services from "./components/pages/services/Services";
 import Products from "./components/pages/products/Products";
 import Footer from "./components/Footer/footer";
 import BackgroundPage from './components/backgrounds/bgknow';
+import Process from "./components/backgrounds/process";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <BackgroundPage/>
         <Services />
         <Products />
+        <Process/>
         <Team />
         <About />
         <Contact />
