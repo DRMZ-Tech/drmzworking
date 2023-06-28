@@ -71,16 +71,6 @@ function Navbar() {
                 About
               </a>
             </li>
-            {/* <li className="nav-item">
-              <Link
-                to="/downloads"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >  
-                Downl oads
-              </Link>
-            </li> */}
-
             <li className="nav-item">
               <a
                 href="#contact"
@@ -88,6 +78,11 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Contact
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#admin" className="nav-links" onClick={closeMobileMenu}>
+                Admin
               </a>
             </li>
           </ul>

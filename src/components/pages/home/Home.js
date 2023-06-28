@@ -81,10 +81,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <div>
-        {/* <h1>Image Slider</h1> */}
-        <MarqueeSlider images={images} speed={1} />
-      </div>
     </>
   );
 }
