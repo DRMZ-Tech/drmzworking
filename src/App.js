@@ -10,22 +10,23 @@ import Contact from "./components/pages/contact/Contact";
 import Services from "./components/pages/services/Services";
 import Products from "./components/pages/products/Products";
 import Footer from "./components/Footer/footer";
-import BackgroundPage from './components/backgrounds/bgknow';
+import BackgroundPage from "./components/backgrounds/bgknow";
 import Process from "./components/backgrounds/process";
+import Admin from "./components/pages/admin/admin";
 function App() {
   return (
     <>
       <Router>
         <Navbar />
         <Home />
-        <BackgroundPage/>
+        <BackgroundPage />
         <Services />
         <Products />
-        <Process/>
+        <Process />
         <Team />
         <About />
         <Contact />
-        {/* <Routes>
+        <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/services" exact Component={Services} />
           <Route path="/products" exact Component={Products} />
@@ -33,7 +34,8 @@ function App() {
           <Route path="/about" exact Component={About} />
           <Route path="/downloads" exact Component={Downloads} />
           <Route path="/contact" exact Component={Contact} />
-        </Routes> */}
+          <Route path="/admin" component={Admin} />
+        </Routes>
         <Footer />
       </Router>
     </>
