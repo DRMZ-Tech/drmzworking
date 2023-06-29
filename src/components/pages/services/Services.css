@@ -87,7 +87,7 @@
 }
 
 .service a:hover {
-  background-color: darkslateblue;
+  background-color: black;
 }
 
 @media screen and (max-width: 600px) {
