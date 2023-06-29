@@ -39,7 +39,7 @@ function Home() {
             </div>
           </div>
           <div className="hero-container1">
-            <img className="photo" src="homePageImage.png" alt="logo" />
+            <img className="photo" src="home.png" alt="logo" />
           </div>
         </div>
         <div className="image-grid">
