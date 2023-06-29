@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8c1eebb4.css",
+    "main.js": "/static/js/main.04f77791.js",
+    "static/media/circuit.avif": "/static/media/circuit.7f434484d8d754ffbda0.avif",
+    "static/media/automation.jpeg": "/static/media/automation.83367abe43b923971b41.jpeg",
+    "static/media/robotics.jpeg": "/static/media/robotics.e208e167d169416f33b8.jpeg",
+    "index.html": "/index.html",
+    "main.8c1eebb4.css.map": "/static/css/main.8c1eebb4.css.map",
+    "main.04f77791.js.map": "/static/js/main.04f77791.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c1eebb4.css",
+    "static/js/main.04f77791.js"
+  ]
+}
