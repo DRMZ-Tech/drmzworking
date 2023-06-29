@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import './MarqueeSlider.css';
+import React, { useEffect, useRef } from "react";
+import "./MarqueeSlider.css";
 
 const MarqueeSlider = ({ images, speed }) => {
   const marqueeRef = useRef(null);
@@ -32,7 +32,12 @@ const MarqueeSlider = ({ images, speed }) => {
     <div className="marquee-slider">
       <div className="marquee" ref={marqueeRef}>
         {images.map((image, index) => (
-          <img src={image} alt={`Image ${index}`} key={index} />
+          <img
+            className="marquee-item"
+            src={image}
+            alt={`Image ${index}`}
+            key={index}
+          />
         ))}
       </div>
     </div>

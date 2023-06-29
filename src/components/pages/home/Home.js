@@ -6,15 +6,12 @@ import MarqueeSlider from "./MarqueeSlider";
 
 function Home() {
   const images = [
-    "one.jpg",
-    "card1.jpg",
-    "Two.jpg",
-    "three.jpg",
-    "four.jpg",
-    "five.jpg",
-    "six.jpg",
-    "card2.jpg",
-    // Add more image URLs as needed
+    "https://drmz.in/assets/img/clients/client-1.png",
+    "https://drmz.in/assets/img/clients/client-2.png",
+    "https://drmz.in/assets/img/clients/client-3.png",
+    "https://drmz.in/assets/img/clients/client-4.png",
+    "https://drmz.in/assets/img/clients/client-5.png",
+    "https://drmz.in/assets/img/clients/client-6.png",
   ];
 
   return (
@@ -32,45 +29,8 @@ function Home() {
             <img className="photo" src="home.png" alt="logo" />
           </div>
         </div>
-        <div className="image-grid">
-          <div className="grid-item">
-            <img
-              src="https://drmz.in/assets/img/clients/client-1.png"
-              alt="Image 1"
-            />
-          </div>
-          <div className="grid-item">
-            <img
-              src="https://drmz.in/assets/img/clients/client-2.png"
-              alt="Image 2"
-            />
-          </div>
-          <div className="grid-item">
-            <img
-              src="https://drmz.in/assets/img/clients/client-3.png"
-              alt="Image 3"
-            />
-          </div>
-          <div className="grid-item">
-            <img
-              src="https://drmz.in/assets/img/clients/client-4.png"
-              alt="Image 4"
-            />
-          </div>
-          <div className="grid-item">
-            <img
-              src="https://drmz.in/assets/img/clients/client-5.png"
-              alt="Image 5"
-            />
-          </div>
-          <div className="grid-item">
-            <img
-              src="https://drmz.in/assets/img/clients/client-6.png"
-              alt="Image 6"
-            />
-          </div>
-        </div>
       </div>
+      <MarqueeSlider images={images} />
     </>
   );
 }
