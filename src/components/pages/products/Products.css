@@ -1,4 +1,12 @@
 /* Common styles for both mobile and desktop */
+.gallery-title
+{
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 200px;
+}
 .image-gallery {
   display: flex;
   justify-content: center;

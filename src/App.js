@@ -19,14 +19,14 @@ function App() {
       <Router>
         <Navbar />
         <Home />
-        <BackgroundPage />
+        {/* <BackgroundPage /> */}
         <Services />
         <Products />
-        <Process />
+        {/* <Process /> */}
         <Team />
         <About />
         <Contact />
-        <Routes>
+        {/* <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/services" exact Component={Services} />
           <Route path="/products" exact Component={Products} />
@@ -35,7 +35,7 @@ function App() {
           <Route path="/downloads" exact Component={Downloads} />
           <Route path="/contact" exact Component={Contact} />
           <Route path="/admin" component={Admin} />
-        </Routes>
+        </Routes> */}
         <Footer />
       </Router>
     </>

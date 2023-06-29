@@ -2,6 +2,8 @@
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
@@ -34,12 +36,12 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #4caf50;
+  border-color: darkslateblue;
 }
 
 .contact-form button {
   padding: 10px 20px;
-  background-color: #4caf50;
+  background-color: darkslateblue;
   color: white;
   border: none;
   border-radius: 4px;
@@ -49,7 +51,7 @@
 }
 
 .contact-form button:hover {
-  background-color: #45a049;
+  background-color: black;
 }
 
 .contact-form button:disabled {
@@ -58,7 +60,7 @@
 }
 
 .contact-form .success-message {
-  color: #4caf50;
+  color: darkslateblue;
   margin-top: 10px;
   text-align: center;
 }
@@ -93,9 +95,9 @@
 }
 
 .connect-links a:hover {
-  background-color: #555;
+  background-color: darkslateblue;
 }
 button:hover {
-  background-color: #555;
+  background-color: darkslateblue;
 }
 

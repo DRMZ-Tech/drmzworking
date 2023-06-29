@@ -19,7 +19,9 @@ class ImageGallery extends React.Component {
 
     return (
       <>
-        <h1 id="products">____Gallery____</h1>
+        <h1 className="gallery-title" id="products">
+          Gallery
+        </h1>
         <div className="image-gallery">
           <div className="gallery-container">
             {images.map((image, index) => (
