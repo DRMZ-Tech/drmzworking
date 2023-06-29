@@ -27,16 +27,6 @@ function Home() {
               We manufacture smart products to help industries transition into
               Industry 4.0
             </p>
-            <div className="hero-btns">
-              <Button
-                className="btns"
-                buttonStyle="btn--outline"
-                buttonSize="btn--large"
-                link="/"
-              >
-                Welcome
-              </Button>
-            </div>
           </div>
           <div className="hero-container1">
             <img className="photo" src="home.png" alt="logo" />
