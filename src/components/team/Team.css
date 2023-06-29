@@ -1,0 +1,145 @@
+.team-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.team-section h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.team-member {
+  margin-bottom: 60px;
+}
+
+.team-member h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.team-member p {
+  margin-bottom: 20px;
+  color: #777;
+  font-size: 16px;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+  transform: scale(1.1);
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media-links a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media-links a:hover {
+  color: darkslateblue;
+}
+
+.team-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.team-section h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+@media screen and (max-width:1050px) {
+    
+  .team-members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+  }
+  @media screen and (min-width:1050px) {
+      
+    .team-members {
+      display: flex;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      justify-content: center;
+      gap: 40px;
+    }
+  }
+  
+
+.team-member {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-15px);
+}
+
+.member-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.member-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.member-details p {
+  margin-bottom: 10px;
+  color: #777;
+  font-size: 16px;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media-icon {
+  color: #777;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media-icon:hover {
+  color: darkslateblue;
+}

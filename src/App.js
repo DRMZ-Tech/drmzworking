@@ -1,18 +1,15 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/pages/home/Home";
-import Team from "./components/pages/team/Team";
-import About from "./components/pages/about/About";
-import Downloads from "./components/pages/downloads/Downloads";
-import Contact from "./components/pages/contact/Contact";
-import Services from "./components/pages/services/Services";
-import Products from "./components/pages/products/Products";
+import Home from "./components/home/Home";
+import Team from "./components/team/Team";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import Services from "./components/services/Services";
+import Products from "./components/products/Products";
 import Footer from "./components/Footer/footer";
-import BackgroundPage from "./components/backgrounds/bgknow";
-import Process from "./components/backgrounds/process";
-import Admin from "./components/pages/admin/admin";
+import Admin from "./components/admin/admin";
 function App() {
   return (
     <>
